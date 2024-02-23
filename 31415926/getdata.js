@@ -22,7 +22,7 @@ const piloop = async function (max) {
 };
 
 (async () => {
-    await piloop(5000000);//500万位
+    await piloop(1000000);//100万位
     // await piloop(100000000);//1亿位
     // await piloop(50000000000000);//50万亿位
 })()

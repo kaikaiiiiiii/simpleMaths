@@ -38,6 +38,7 @@ function findEdge(S) {
 
 }
 
-for (let s = 100; s < 9000; s += 100) {
-    console.log(findEdge(s))
+for (let s = 1; s < 1000000; s += 1) {
+    console.log(s, 2 / Math.PI * Math.atan(s / L))
 }
+
